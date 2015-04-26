@@ -1,0 +1,29 @@
+<div style="background-color:black; height:55px; margin-:0; padding:0;">
+  <h1 style="font-family:chalkduster,arial,verdana; text-align:center; color:white;">
+    Quake up!
+  </h1>
+</div>
+
+<h3 style="font-family:chalkduster,arial,verdana; text-align:center;">
+  These are your list of earthquakes in the last 30 days!
+</h3>
+
+<form action= "/rest/v1/earthquakes" value= "post">
+  <input type=hidden id="latitude" value="<%=@location.latitude%>"/>
+  <input type=hidden id="longitude" value="<%=@location.longitude%>"/>
+  <input type=hidden id="radius" value="<%=@notice.radius%>"/>
+  <input type=hidden id="magnitude" value="<%=@notice.magnitude%>"/>
+</form>
+<!--
+<ul>
+  <li></li>
+</ul> -->
+
+<table id= "table" border= "2" cellpadding="10" cellspacing="10" FONT COLOR="#800517">
+  <tr>
+    <th>Place</th>
+    <th>Time</th>
+    <th>Magnitude</th>
+    <th>Tsunami</th>
+  </tr>
+</table>

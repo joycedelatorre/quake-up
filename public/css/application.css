@@ -1,0 +1,36 @@
+/***********  INDEX.ERB **************/
+#background{
+  background-image: url(http://www.scholastic.com/teachers/sites/default/files/promo_images/lesson_plan/crack_in_ground.jpg);
+}
+#banner {
+  background-color:black;
+  text-align:center;
+  width:100%;
+  height:100px;
+  color: white;
+  line-height:100px;
+  font-size:100px;
+  font-family:chalkduster,arial,verdana;
+}
+#content_holder{
+  background-color:rgb(77, 77, 77);
+  width:100%;
+  min-width: 1100px;
+  height:700px;
+}
+.sign-up{
+  font-size: 20px;
+  font-family: arial;
+  color:black;
+  display: inline-block;
+  width:1024px;
+  height:250px;
+}
+.headtags{
+  font-size:40px;
+  font-family:chalkduster,arial,verdana;
+  color:white;
+}
+#table{
+  color: maroon;
+}
